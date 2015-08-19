@@ -3,13 +3,16 @@ Simple script to notify / modify GPIO status from within XBMC skin
 
 USAGE:
 (In eg. Home.xml)
+```
 <onload>Runscript(script.GPIO, backend=true, ins=0, ins=1)</onload>
+```
 Then, in a control
-
+```
 <onfocus>SetProperty(GPIOon, 17)</onfocus>
 	<onunfocus>SetProperty(GPIOoff, 17)</onunfocus>
-
+```
 And, for example, an icon to denote status:
+```
   <control>
    <description>Test</description>
    <type>image</type>
@@ -21,3 +24,4 @@ And, for example, an icon to denote status:
    <texture>handbrake.png</texture>
    <visible>SubString(Window(home).Property(GPIO0), "0")</visible>
   </control>
+```
