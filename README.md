@@ -1,4 +1,4 @@
-# XBMC-rpi-service.script.gpio
+# service.skin.gpio
 Simple script to notify / modify GPIO status from within XBMC skin
 
 USAGE:
