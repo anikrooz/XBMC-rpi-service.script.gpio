@@ -25,3 +25,7 @@ And, for example, an icon to denote status:
    <visible>SubString(Window(home).Property(GPIO0), "0")</visible>
   </control>
 ```
+
+See my blog posts at http://nikrooz.co.uk/raspberry-pi-car-puter and http://nikrooz.co.uk/raspberry-pi-carputer-2/ for more info.
+
+For a skin that uses this, see my other githib projects
